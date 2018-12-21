@@ -1,4 +1,4 @@
-setopt appendhistory
+setopt appendhistory histignorealldups sharehistory
 HISTFILE=~/.zsh_history
 HISTSIZE=5000
 SAVEHIST=10000
