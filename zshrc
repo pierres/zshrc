@@ -16,12 +16,16 @@ source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir vcs)
 POWERLEVEL9K_STATUS_OK=false
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time)
 POWERLEVEL9K_HIDE_BRANCH_ICON=true
 POWERLEVEL9K_VCS_HIDE_TAGS=true
 POWERLEVEL9K_VCS_GIT_HOOKS=(vcs-detect-changes git-untracked git-aheadbehind git-remotebranch)
+POWERLEVEL9K_CONTEXT_ROOT_BACKGROUND=red
+POWERLEVEL9K_CONTEXT_ROOT_FOREGROUND=white
+POWERLEVEL9K_CONTEXT_REMOTE_BACKGROUND=teal
+POWERLEVEL9K_CONTEXT_REMOTE_FOREGROUND=white
 
 source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 
