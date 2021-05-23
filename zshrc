@@ -27,7 +27,7 @@ POWERLEVEL9K_CONTEXT_ROOT_FOREGROUND=white
 POWERLEVEL9K_CONTEXT_REMOTE_BACKGROUND=teal
 POWERLEVEL9K_CONTEXT_REMOTE_FOREGROUND=white
 
-source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
+source /usr/share/zsh-theme-powerlevel10k/powerlevel9k.zsh-theme
 
 alias la='command ls -la --color=auto'
 alias ll='command ls -l --color=auto'
